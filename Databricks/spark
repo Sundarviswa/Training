@@ -1,0 +1,46 @@
+file:///C:/Users/<username>/Downloads/02%20Why%20Spark.html
+https://docs.databricks.com/user-guide/notebooks/index.html
+
+Use cases for Apache Spark
+Read and process huge files and data sets
+Query, explore, and visualize data sets
+Join disparate data sets found in data lakes
+Train and evaluate machine learning models
+Process live streams of data
+Perform analysis on large graph data sets and social networks
+
+Not only does Spark bring together files from many different locations, it also brings in disparate data sources and file types such as:
+
+JDBC Data Sources like SQL Server, Azure SQL Database, MySQL, PostgreSQL, Oracle, etc.
+Parquet files
+CSV files
+ORC files
+JSON files
+HDFS file systems
+Apache Kafka
+And with a little extra work, Web Services Endpoints, TCP-IP sockets, and just about anything else you can imagine!
+
+Apache Spark is used to...
+Process live streams of data
+Besides aggregating static data sets, Spark can also process live streams of data such as:
+
+File Streams
+TCP-IP Streams
+Apache Kafka
+Custom Streams like Twitter & Facebook
+
+Apache Spark is used to...
+Train and evaluate machine learning models
+Spark performs predictive analytics using machine learning algorithms.
+
+The example below trains a linear regression model using past flight data to predict delays based on the hour of the day.
+
+Apache Spark is used to...
+Perform analysis on large graph data sets and social networks
+The open source GraphFrames library extends Spark to study not the data itself, but the network of relationships between entities. This facilitates queries such as:
+
+Shortest Path: What is the shortest route from Springfield, IL to Austin, TX?
+Page Rank: Which airports are the most important hubs in the USA?
+Connected Components: Find strongly connected groups of friends on Facebook.
+(just to name a few)
+
